@@ -1,8 +1,6 @@
 package org.rpc.simple.protocol;
 
-import com.sun.org.apache.xml.internal.serialize.Serializer;
 import lombok.Data;
-
 import java.io.Serializable;
 
 /**
