@@ -12,11 +12,12 @@ public abstract class StringUtils {
 
     private static final String WINDOWS_FOLDER_SEPARATOR = "\\";
 
-    private static final String TOP_PATH = "..";
-
-    private static final String CURRENT_PATH = ".";
-
     private static final char EXTENSION_SEPARATOR = '.';
+
+    public static final String CLASS       = ".class";
+    public static final String POINT       = ".";
+    public static final String EMPTY       = "";
+    public static final String SEPARATED   = ":";
 
 
     //---------------------------------------------------------------------
@@ -160,7 +161,7 @@ public abstract class StringUtils {
         }
 
         int beginIndex = 0;
-        int endIndex = str.length() - 1;
+        int endIndex   = str.length() - 1;
 
         while (beginIndex <= endIndex && Character.isWhitespace(str.charAt(beginIndex))) {
             beginIndex++;
@@ -186,8 +187,8 @@ public abstract class StringUtils {
             return str;
         }
 
-        int len = str.length();
-        StringBuilder sb = new StringBuilder(str.length());
+        int           len = str.length();
+        StringBuilder sb  = new StringBuilder(str.length());
         for (int i = 0; i < len; i++) {
             char c = str.charAt(i);
             if (!Character.isWhitespace(c)) {
@@ -331,7 +332,7 @@ public abstract class StringUtils {
         }
 
         int count = 0;
-        int pos = 0;
+        int pos   = 0;
         int idx;
         while ((idx = str.indexOf(sub, pos)) != -1) {
             ++count;
@@ -364,7 +365,7 @@ public abstract class StringUtils {
         }
         StringBuilder sb = new StringBuilder(capacity);
 
-        int pos = 0;  // our position in the old string
+        int pos    = 0;  // our position in the old string
         int patLen = oldPattern.length();
         while (index >= 0) {
             sb.append(inString.substring(pos, index));
@@ -630,16 +631,16 @@ public abstract class StringUtils {
             throw new RuntimeException("Charset must not be null");
         }
 
-        ByteArrayOutputStream bos = new ByteArrayOutputStream(length);
-        boolean changed = false;
+        ByteArrayOutputStream bos     = new ByteArrayOutputStream(length);
+        boolean               changed = false;
         for (int i = 0; i < length; i++) {
             int ch = source.charAt(i);
             if (ch == '%') {
                 if (i + 2 < length) {
                     char hex1 = source.charAt(i + 1);
                     char hex2 = source.charAt(i + 2);
-                    int u = Character.digit(hex1, 16);
-                    int l = Character.digit(hex2, 16);
+                    int  u    = Character.digit(hex1, 16);
+                    int  l    = Character.digit(hex2, 16);
                     if (u == -1 || l == -1) {
                         throw new IllegalArgumentException("Invalid encoded sequence \"" + source.substring(i) + "\"");
                     }
@@ -658,7 +659,7 @@ public abstract class StringUtils {
 
     private static Locale parseLocaleTokens(String localeString, String[] tokens) {
         String language = (tokens.length > 0 ? tokens[0] : "");
-        String country = (tokens.length > 1 ? tokens[1] : "");
+        String country  = (tokens.length > 1 ? tokens[1] : "");
         validateLocalePart(language);
         validateLocalePart(country);
 
@@ -725,7 +726,7 @@ public abstract class StringUtils {
         }
 
         String beforeDelimiter = toSplit.substring(0, offset);
-        String afterDelimiter = toSplit.substring(offset + delimiter.length());
+        String afterDelimiter  = toSplit.substring(offset + delimiter.length());
         return new String[]{beforeDelimiter, afterDelimiter};
     }
 

@@ -1,1 +1,5 @@
-org/rpc/simple/consumer/App.class
+org/rpc/simple/consumer/core/RpcConsumer.class
+org/rpc/simple/consumer/core/proxyInstance.class
+org/rpc/simple/consumer/core/proxyInstance$1.class
+org/rpc/simple/consumer/core/RpcConsumerHandler.class
+org/rpc/simple/consumer/test/Main.class

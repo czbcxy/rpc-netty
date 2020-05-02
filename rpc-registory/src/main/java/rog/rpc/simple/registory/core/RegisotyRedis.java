@@ -4,7 +4,6 @@ import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -27,7 +26,13 @@ public class RegisotyRedis implements AbstractRegistryFactory {
                     JedisPoolConfig config = new JedisPoolConfig();
                     config.setMaxTotal(Integer.parseInt(properties.getProperty("redis.maxTotal")));
                     config.setMaxIdle(Integer.parseInt(properties.getProperty("redis.maxIdle")));
-                    jedisPool = new JedisPool(config, properties.getProperty("redis.host"), Integer.parseInt(properties.getProperty("redis.port")));
+                    String password = properties.getProperty("redis.password");
+                    System.out.println(password);
+                    if ( password != null ) {
+                        jedisPool = new JedisPool(config, properties.getProperty("redis.host"), Integer.parseInt(properties.getProperty("redis.port")),3000,password,0);
+                    }else {
+                        jedisPool = new JedisPool(config, properties.getProperty("redis.host"), Integer.parseInt(properties.getProperty("redis.port")));
+                    }
                 }
             }
         }

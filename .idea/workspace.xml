@@ -1,8 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab28751a-65aa-4059-b409-3bd7cdc5f3fb" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ab28751a-65aa-4059-b409-3bd7cdc5f3fb" name="Default Changelist" comment="修改netty版本">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dump.rdb" beforeDir="false" afterPath="$PROJECT_DIR$/dump.rdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/rpc-api.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-api/target/rpc-api-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-api/target/rpc-api-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/rpc-consumer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/src/main/resources/Application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/classes/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/classes/Application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/classes/org/rpc/simple/consumer/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/rpc-consumer-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/rpc-consumer-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/surefire-reports/TEST-org.rpc.simple.consumer.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/surefire-reports/TEST-org.rpc.simple.consumer.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-consumer/target/surefire-reports/org.rpc.simple.consumer.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-consumer/target/surefire-reports/org.rpc.simple.consumer.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-monitor/rpc-monitor.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-monitor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-monitor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-monitor/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-protocol/rpc-protocol.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-protocol/target/classes/org/rpc/simple/protocol/PortocolMetaData.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-protocol/target/classes/org/rpc/simple/protocol/PortocolMetaData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/rpc-provider.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/src/main/resources/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/src/main/resources/Application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/target/classes/Application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/target/classes/Application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/target/classes/META-INF/rpc-provider.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-provider/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/rpc-registory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/RegisotyRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/RegisotyRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/StringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/StringUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/target/classes/META-INF/rpc-registory.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/target/classes/rog/rpc/simple/registory/core/AbstractApplicationContent.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/target/classes/rog/rpc/simple/registory/core/AbstractApplicationContent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/target/classes/rog/rpc/simple/registory/core/RegisotyRedis.class" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/target/classes/rog/rpc/simple/registory/core/RegisotyRedis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-registory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-registory/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,12 +71,21 @@
     </option>
   </component>
   <component name="ProjectId" id="1UvkglyVbcnBy0ZcBDqgb8OgRLX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="GO_FMT" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/rpc-consumer/src/main/java/org/rpc/simple/consumer" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/rpc-consumer/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,10 +94,10 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -62,19 +114,7 @@
       <recent name="$PROJECT_DIR$/rpc-api/src/main/java" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.rpc.simple.consumer.test.Main" />
       <module name="rpc-consumer" />
@@ -96,6 +136,20 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.rpc.simple.provider.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisotyRedis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rog.rpc.simple.registory.core.RegisotyRedis" />
+      <module name="rpc-registory" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rog.rpc.simple.registory.core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,8 +181,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.RegisotyRedis" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -145,12 +200,129 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576244569845</updated>
-      <workItem from="1576244574190" duration="21091000" />
+      <workItem from="1576244574190" duration="23337000" />
+      <workItem from="1576686676980" duration="79000" />
+      <workItem from="1577285170792" duration="361000" />
+      <workItem from="1577535742182" duration="1999000" />
+      <workItem from="1578144536814" duration="55000" />
+      <workItem from="1579932892399" duration="686000" />
+      <workItem from="1579934882716" duration="3908000" />
+      <workItem from="1580128597885" duration="7012000" />
+      <workItem from="1588079831232" duration="3760000" />
     </task>
+    <task id="LOCAL-00001" summary="修改netty版本">
+      <created>1576312854877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576312854878</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修改netty版本">
+      <created>1588080359723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588080359723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改netty版本" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改netty版本" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="109" key="#Project_Structure" timestamp="1588395821448">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="320" y="109" key="#Project_Structure/0.23.1440.838@0.23.1440.838" timestamp="1588395821448" />
+    <state x="426" y="252" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588080381470">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="426" y="252" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.838@0.23.1440.838" timestamp="1588080381470" />
+    <state x="458" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588396521972">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="458" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.838@0.23.1440.838" timestamp="1588396521972" />
+    <state x="207" y="47" key="CommitChangelistDialog2" timestamp="1588080359338">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="207" y="47" key="CommitChangelistDialog2/0.23.1440.838@0.23.1440.838" timestamp="1588080359338" />
+    <state x="144" y="96" width="1152" height="670" key="DiffContextDialog" timestamp="1588080355662">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="144" y="96" width="1152" height="670" key="DiffContextDialog/0.23.1440.838@0.23.1440.838" timestamp="1588080355662" />
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579962364492" />
+    <state width="1398" height="263" key="GridCell.Tab.0.center" timestamp="1579962364491">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.center/0.23.1440.821@0.23.1440.821" timestamp="1579962364491" />
+    <state width="1398" height="263" key="GridCell.Tab.0.left" timestamp="1579962364491">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.left/0.23.1440.821@0.23.1440.821" timestamp="1579962364491" />
+    <state width="1398" height="263" key="GridCell.Tab.0.right" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.0.right/0.23.1440.821@0.23.1440.821" timestamp="1579962364491" />
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.bottom/0.23.1440.821@0.23.1440.821" timestamp="1579962364492" />
+    <state width="1398" height="263" key="GridCell.Tab.1.center" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.center/0.23.1440.821@0.23.1440.821" timestamp="1579962364492" />
+    <state width="1398" height="263" key="GridCell.Tab.1.left" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.left/0.23.1440.821@0.23.1440.821" timestamp="1579962364492" />
+    <state width="1398" height="263" key="GridCell.Tab.1.right" timestamp="1579962364492">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state width="1398" height="263" key="GridCell.Tab.1.right/0.23.1440.821@0.23.1440.821" timestamp="1579962364492" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1579934867346">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1579934867346" />
+    <state x="397" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1579934884025">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1579932894042" />
+    <state x="397" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1579934884025" />
+    <state x="375" y="206" width="689" height="472" key="find.popup" timestamp="1588395976575">
+      <screen x="0" y="23" width="1440" height="838" />
+    </state>
+    <state x="375" y="206" width="689" height="472" key="find.popup/0.23.1440.838@0.23.1440.838" timestamp="1588395976575" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,29 +333,14 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rpc-provider/src/main/java/org/rpc/simple/provider/core/RpcProvider.java</url>
           <line>59</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java</url>
-          <line>91</line>
+          <line>84</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rpc-provider/src/main/java/org/rpc/simple/provider/core/RpcProviderHandler.java</url>
@@ -192,15 +349,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/RegisotyRedis.java</url>
-          <line>52</line>
+          <line>58</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/RegisotyRedis.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rpc-registory/src/main/java/rog/rpc/simple/registory/core/AbstractApplicationContent.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="jedis.hgetAll(name)" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
 </project>
